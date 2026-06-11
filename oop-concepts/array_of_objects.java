@@ -5,7 +5,7 @@ class Student {
 	int marks;
 }
 
-public class array_of_objects {
+public class array_of_objects   {
 	public static void main(String[] args) {
 		Student s1 = new Student();
 		s1.rollno = 1;
