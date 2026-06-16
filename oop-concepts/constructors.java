@@ -60,6 +60,8 @@ public class Demo {
 //		obj.setName("Reddy");
 		
 
+
+
 		//System.out.println(obj.getName()+" : "+obj.getAge());
 	}
 }
