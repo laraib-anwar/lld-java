@@ -28,7 +28,6 @@ class ATMMachine {
         this.hasCardState = new HasCardState(this);
         this.authenticatedState = new AuthenticatedState(this);
         this.outOfCashState = new OutOfCashState(this);
-
         this.cashInventory = initialCash;
         this.currentState = (initialCash > 0) ? idleState : outOfCashState;
     }
